@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +10,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -21,4 +21,203 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+# Eclipse
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.localhistory/
+.project
+.settings/
+.loadpath
+.recommenders
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows 10
+*.bak
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Gradle
+.gradle/
+build/
+out/
+!gradle-wrapper.jar
+
+# Gradle Wrapper
+.gradle/wrapper/dists/
+.gradle/wrapper/gradle-wrapper.properties
+.gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle dependency cache
+**/build/
+!src/main/**/build/
+!src/test/**/build/
+.gradle/
+!**/src/**/main/**/resources/**/
+
+# Build generated
+bin/
+tmp/
+target/
+build/
+out/
+
+# Gradle project-specific cache
+.gradle/
+
+# Gradle build artifacts
+build/
+out/
+.libs/
+.libs/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Spring Boot
+logs/
+spring-boot-configuration-metadata.json
+!**/src/main/**/resources/**/
+
+# IDE-specific files
+# Eclipse
+.project
+.classpath
+.metadata
+.apt_generated
+.factorypath
+.recommenders
+.ionide
+target/
+bin/
+settings/
+
+# IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+*.classpath
+.project
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+.history/
+
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Coverage reports
+*.lcov
+coverage/
+
+# Java, Gradle
+**/build/
+**/out/
+**/tmp/
+**/target/
+
+# Others
+log/
+logs/
+*.log
+*.out
+*.log.*
+*.pid
+*.bak
+*.swp
+*.tmp
+*~.nib
+
+# Temporary files
+tmp/
+*.tmp
+!**/src/**/main/**/resources/**/
+!**/src/**/test/**/resources/**/
+!.gradle/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Exclude gradle wrapper jar
+!/gradle/wrapper/gradle-wrapper.jar
